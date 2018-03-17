@@ -1,0 +1,6 @@
+setx GPU_FORCE_64BIT_PTR 0
+setx GPU_MAX_HEAP_SIZE 100
+setx GPU_USE_SYNC_OBJECTS 1
+setx GPU_MAX_ALLOC_PERCENT 100
+setx GPU_SINGLE_ALLOC_PERCENT 100
+ethminer.exe --farm-recheck 200 -G -S us1.ethermine.org:4444 -FS us2.ethermine.org:4444 -O 0xc0339f7fa4d0205a5C2A25fE84300Cc74a9722C9.creep
